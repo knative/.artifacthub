@@ -1,3 +1,5 @@
-# TODO Repository Name
+# .artifacthub
 
-_TODO(leads): please fill in this section_
+Repository for sharing Knative resources to ArtifactHub.
+
+https://artifacthub.io/docs/topics/repositories/knative-client-plugins/
