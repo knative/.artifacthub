@@ -39,5 +39,4 @@ jobs:
       - name: Lint
         shell: bash
         run: |
-          ah lint -k knative-client-plugin -p plugins/
-
+          ah lint -k knative-client-plugin -p plugins
