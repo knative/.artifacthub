@@ -1,0 +1,31 @@
+# Artifact Hub package metadata file
+# See https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-pkg.yml
+version: 1.9.0
+name: kn-plugin-source-kafka
+displayName: Knative Client Plugin Source Kafka
+description: Knative Client plugin for managing Kafka Event Sources
+license: Apache-2.0
+homeURL: https://github.com/knative-sandbox/kn-plugin-source-kafka
+craetedAt: 2023-03-09T00:00:00Z
+keywords:
+  - knative
+  - plugin
+  - eventing
+  - source
+  - kafka
+  - serverless
+links:
+  - name: Source
+    url: https://github.com/knative-sandbox/kn-plugin-source-kafka
+provider:
+  name: Knative
+install: |-
+  To enable Knative Client plugi Tap globally, use
+  
+  brew tap knative-sandbox/kn-plugins
+
+  brew install source-kafka
+
+  Alternatively you can also install each plugin directly (without adding a tap globally) with
+
+  brew install knative-sandbox/kn-plugins/source-kafka

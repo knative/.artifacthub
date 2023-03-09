@@ -1,0 +1,4 @@
+# Configuration for our Artifact Hub repository
+# See https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-repo.yml
+repositoryID: 5e61a0e9-c7a8-4540-8f02-df4afb1c1cfa
+
