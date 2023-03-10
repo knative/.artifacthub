@@ -1,0 +1,43 @@
+# Copyright 2023 The Knative Authors.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# Artifact Hub package metadata file
+# See https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-pkg.yml
+version: 1.9.0
+name: kn-plugin-source-kafka
+displayName: Kafka Source Plugin
+description: Knative Client plugin for managing Kafka Event Sources
+license: Apache-2.0
+homeURL: https://github.com/knative-sandbox/kn-plugin-source-kafka
+createdAt: 2023-03-09T00:00:00Z
+keywords:
+  - cli
+  - knative
+  - plugin
+  - eventing
+  - source
+  - kafka
+  - serverless
+links:
+  - name: Source
+    url: https://github.com/knative-sandbox/kn-plugin-source-kafka
+provider:
+  name: Knative
+install: |-
+  For maOS and Linux you can install plugins from Homebrew Tap:
+  
+  brew install knative-sandbox/kn-plugins/source-kafka
+
+  For Windows please download the binary from the release page of the GitHub repository
+
