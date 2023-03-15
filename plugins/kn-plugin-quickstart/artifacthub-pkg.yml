@@ -16,7 +16,7 @@
 # See https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-pkg.yml
 version: 1.9.0
 name: kn-plugin-quickstart
-displayName: Kafka Quickstart Plugin
+displayName: Quickstart Plugin
 description: Knative Client plugin to quickly set up a local Knative environment
 license: Apache-2.0
 homeURL: https://github.com/knative-sandbox/kn-plugin-quickstart
