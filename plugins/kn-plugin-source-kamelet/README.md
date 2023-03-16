@@ -1,3 +1,5 @@
+# kn-plugin-source-kamelet
+
 **[This component is BETA](<https://github.com/knative/community/tree/main/mechanics/MATURITY-LEVELS.md>)**
 
 `kn-source-kamelet` Knative eventing sources plugin manages Kamelet
