@@ -38,5 +38,5 @@ for dir in "$BASE_DIR"/plugins/*/; do
 
 done
 
-echo "Update files:"
+echo "Updated files:"
 git status --porcelain
