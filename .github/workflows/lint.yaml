@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-name: Lint ArtifactHub
+name: ArtifactHub
 
 on:
   pull_request:
@@ -20,7 +20,7 @@ on:
 
 jobs:
   lint:
-    name: Lint
+    name: Lint Plugins
     runs-on: ubuntu-latest
 
     steps:
