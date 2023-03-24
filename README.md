@@ -6,7 +6,7 @@ https://artifacthub.io/docs/topics/repositories/knative-client-plugins/
 
 ### Adding new artifact metadata
 
-The metadata stored in `plugins` directory are periodically indexed by ArtifactHub to list our plugins per `kn-client-plugin` type of AH.
+The metadata stored in `plugins` directory is periodically indexed by Artifact Hub to list our plugins per `kn-client-plugin` type.
 
 Step to add a new one:
  - Create a new directory named per GitHub repository name
