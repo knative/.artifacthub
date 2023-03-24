@@ -9,7 +9,7 @@ https://artifacthub.io/docs/topics/repositories/knative-client-plugins/
 The metadata stored in `plugins` directory are periodically indexed by ArtifactHub to list our plugins per `kn-client-plugin` type of AH.
 
 Step to add a new one:
- - Create new directory named per GitHub repository name
+ - Create a new directory named per GitHub repository name
  - Create `artifact-pkg.yml` per docs link above
  - Execute `./hack/update-codegen.sh`
 
