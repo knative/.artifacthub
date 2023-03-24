@@ -17,7 +17,7 @@ A top-level directory should be created with an appropriate name to add a new ty
 
 ### Updating `README.md` files
 
-There's a script to automatically download current `main` README files per plugin directory. It's periodically executed by Knobot action. 
+There's a script to automatically download the current `main` README files per plugin directory. A Knobot action periodically executes it. 
 
 ```
 ./hack/update-codegen.sh
