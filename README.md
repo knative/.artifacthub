@@ -13,7 +13,7 @@ Step to add a new one:
  - Create `artifact-pkg.yml` per docs link above
  - Execute `./hack/update-codegen.sh`
 
-To add a new type of artifact a top-level directory should be created with appropriate name.
+A top-level directory should be created with an appropriate name to add a new type of artifact.
 
 ### Updating `README.md` files
 
