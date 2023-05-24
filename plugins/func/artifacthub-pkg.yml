@@ -36,6 +36,6 @@ provider:
 install: |-
   For maOS and Linux you can install plugins from Homebrew Tap:
   
-  brew install knative-sandbox/kn-plugins/func
+  brew install knative-extension/kn-plugins/func
 
   For Windows please download the binary from the release page of the GitHub repository

@@ -19,7 +19,7 @@ name: kn-plugin-source-kafka
 displayName: Kafka Source Plugin
 description: Knative Client plugin for managing Kafka Event Sources
 license: Apache-2.0
-homeURL: https://github.com/knative-sandbox/kn-plugin-source-kafka
+homeURL: https://github.com/knative-extension/kn-plugin-source-kafka
 createdAt: 2023-03-09T00:00:00Z
 keywords:
   - cli
@@ -31,13 +31,13 @@ keywords:
   - serverless
 links:
   - name: Source
-    url: https://github.com/knative-sandbox/kn-plugin-source-kafka
+    url: https://github.com/knative-extension/kn-plugin-source-kafka
 provider:
   name: Knative
 install: |-
   For maOS and Linux you can install plugins from Homebrew Tap:
   
-  brew install knative-sandbox/kn-plugins/source-kafka
+  brew install knative-extension/kn-plugins/source-kafka
 
   For Windows please download the binary from the release page of the GitHub repository
 
