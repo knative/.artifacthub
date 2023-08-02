@@ -19,7 +19,7 @@ name: kn-plugin-operator
 displayName: Operator Plugin
 description: Knative Client plugin to setup and manage Knative with Knative Operator
 license: Apache-2.0
-homeURL: https://github.com/knative-sandbox/kn-plugin-operator
+homeURL: https://github.com/knative-extensions/kn-plugin-operator
 createdAt: 2023-03-16T00:00:00Z
 keywords:
   - cli
@@ -31,13 +31,13 @@ keywords:
   - serverless
 links:
   - name: Source
-    url: https://github.com/knative-sandbox/kn-plugin-operator
+    url: https://github.com/knative-extensions/kn-plugin-operator
 provider:
   name: Knative
 install: |-
   For maOS and Linux you can install plugins from Homebrew Tap:
   
-  brew install knative-sandbox/kn-plugins/operator
+  brew install knative-extensions/kn-plugins/operator
 
   For Windows please download the binary from the release page of the GitHub repository
 

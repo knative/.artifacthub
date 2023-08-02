@@ -10,7 +10,7 @@ Note: In order to use the `quickstart` plugin, you must install the [Kubernetes 
 
 ### Installation
 
-You can download the latest binaries from the [Releases](https://github.com/knative-sandbox/kn-plugin-quickstart/releases) page.
+You can download the latest binaries from the [Releases](https://github.com/knative-extensions/kn-plugin-quickstart/releases) page.
 
 There are two ways to run `kn quickstart`:
 
@@ -72,7 +72,7 @@ You must [set up your development environment](https://github.com/knative/client
 Once you've set up your development environment, you can build the plugin by running the following commands:
 
 ``` bash
-git clone git@github.com:knative-sandbox/kn-plugin-quickstart.git
+git clone git@github.com:knative-extensions/kn-plugin-quickstart.git
 cd kn-plugin-quickstart
 ./hack/build.sh
 ```
