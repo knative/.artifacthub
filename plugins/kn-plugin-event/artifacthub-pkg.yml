@@ -19,7 +19,7 @@ name: kn-plugin-event
 displayName: Event Plugin
 description: Knative Client plugin for managing cloud events from command line
 license: Apache-2.0
-homeURL: https://github.com/knative-sandbox/kn-plugin-event
+homeURL: https://github.com/knative-extensions/kn-plugin-event
 createdAt: 2023-03-16T00:00:00Z
 keywords:
   - cli
@@ -30,12 +30,12 @@ keywords:
   - serverless
 links:
   - name: Source
-    url: https://github.com/knative-sandbox/kn-plugin-event
+    url: https://github.com/knative-extensions/kn-plugin-event
 provider:
   name: Knative
 install: |-
   For maOS and Linux you can install plugins from Homebrew Tap:
   
-  brew install knative-sandbox/kn-plugins/event
+  brew install knative-extensions/kn-plugins/event
 
   For Windows please download the binary from the release page of the GitHub repository

@@ -22,10 +22,10 @@ set -o pipefail
 BASE_DIR="$(dirname "${BASH_SOURCE[0]}")/.."
 
 # This script updates README.md files in plugins sub-dirs.
-# Note knative-sandbox/func redirects to knative/func, that may stop working.
+# Note knative-extensions/func redirects to knative/func, that may stop working.
 
 RAW_URL="https://raw.githubusercontent.com"
-ORG_SANDBOX="knative-sandbox"
+ORG_SANDBOX="knative-extensions"
 
 for dir in "$BASE_DIR"/plugins/*/; do
   

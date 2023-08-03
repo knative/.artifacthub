@@ -19,7 +19,7 @@ name: kn-plugin-quickstart
 displayName: Quickstart Plugin
 description: Knative Client plugin to quickly set up a local Knative environment
 license: Apache-2.0
-homeURL: https://github.com/knative-sandbox/kn-plugin-quickstart
+homeURL: https://github.com/knative-extensions/kn-plugin-quickstart
 createdAt: 2023-03-15T00:00:00Z
 keywords:
   - cli
@@ -30,13 +30,13 @@ keywords:
   - serverless
 links:
   - name: Source
-    url: https://github.com/knative-sandbox/kn-plugin-quickstart
+    url: https://github.com/knative-extensions/kn-plugin-quickstart
 provider:
   name: Knative
 install: |-
   For maOS and Linux you can install plugins from Homebrew Tap:
   
-  brew install knative-sandbox/kn-plugins/quickstart
+  brew install knative-extensions/kn-plugins/quickstart
 
   For Windows please download the binary from the release page of the GitHub repository
 

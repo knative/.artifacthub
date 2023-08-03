@@ -17,7 +17,7 @@ A top-level directory should be created with an appropriate name to add a new ty
 
 ### Updating `README.md` files
 
-There's a script to automatically download the current `main` README files per plugin directory. The [Knobot](https://github.com/knative-sandbox/knobots) `update-deps` action periodically executes it. 
+There's a script to automatically download the current `main` README files per plugin directory. The [Knobot](https://github.com/knative-extensions/knobots) `update-deps` action periodically executes it. 
 
 ```
 ./hack/update-codegen.sh
